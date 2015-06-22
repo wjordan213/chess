@@ -1,5 +1,5 @@
-load './pieces.rb'
-load './individual_pieces.rb'
+load './pieces/pieces.rb'
+load './pieces/individual_pieces.rb'
 
 class Board
   POSITIONS = [Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook]

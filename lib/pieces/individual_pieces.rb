@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'byebug'
 class Queen < SlidingPiece
   def initialize(color, location, board)
     super

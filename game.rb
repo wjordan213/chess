@@ -1,7 +1,6 @@
-require 'byebug'
-require './board'
+require './lib/board'
 require 'colorize'
-require './player'
+require './lib/player'
 class Game
 
   attr_accessor :board, :sides
