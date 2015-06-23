@@ -1,0 +1,10 @@
+# encoding: utf-8
+require './lib/pieces/piece.rb'
+require './lib/pieces/sliding_piece.rb'
+require './lib/pieces/stepping_piece.rb'
+require './lib/pieces/bishop.rb'
+require './lib/pieces/queen.rb'
+require './lib/pieces/king.rb'
+require './lib/pieces/knight.rb'
+require './lib/pieces/rook.rb'
+require './lib/pieces/pawn.rb'
