@@ -1,7 +1,7 @@
 
 class Piece
   attr_accessor :location
-  attr_reader :color # Protected reader
+  attr_reader :color
 
   def self.next_square(location, delta)
     location.each_with_index.map { |el, idx| el + delta[idx] }

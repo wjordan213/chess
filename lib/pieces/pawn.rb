@@ -35,14 +35,20 @@ class Pawn < Piece
 
   def one_forward
     one_forward = [location[0] + @move_dirs[color], location[1]]
-    return one_forward if @board.open_space?(one_forward)
-    []
+    if @board.open_space?(one_forward)
+      one_forward
+    else
+      []
+    end
   end
 
   def two_forward
     two_forward = [location[0] + 2 * @move_dirs[color], location[1]]
-    return two_forward if @board.open_space?(two_forward)
-    []
+    if @board.open_space?(two_forward)
+      two_forward
+    else
+      []
+    end
   end
 
   def diagonals
