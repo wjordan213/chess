@@ -1,4 +1,4 @@
-# Chess
+# Chess 
 
 ## Description
 A command line interface for the game of chess. the board renders nicely on the command line thanks to the colorize gem and the game enforces move order, move validity, and ends the game on checkmate.
